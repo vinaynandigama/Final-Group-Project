@@ -1,0 +1,190 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Bridge Pattern.
+AbstractNacosLogging is abstract.
+NacosClientProperties is an interface.
+AbstractNacosLogging delegates NacosClientProperties.
+File Location: nacos-develop/client/src/main/java/com/alibaba/nacos/client/logging/AbstractNacosLogging.java,
+               nacos-develop/client/src/main/java/com/alibaba/nacos/client/env/NacosClientProperties.java
+
+Flyweight Pattern.
+Constants is a flyweight factory.
+CLIENT_VERSION_HEADER is a flyweight object (declared public-static-final).
+File location: nacos-develop/config/src/main/java/com/alibaba/nacos/config/server/constant/Constants.java
+
+Flyweight Pattern.
+StringUtils is a flyweight factory.
+EMPTY is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/utils/StringUtils.java
+
+Flyweight Pattern.
+PropertiesConstant is a flyweight factory.
+NOTIFY_CONNECT_TIMEOUT is a flyweight object (declared public-static-final).
+File location: nacos-develop/config/src/main/java/com/alibaba/nacos/config/server/constant/PropertiesConstant.java
+
+Flyweight Pattern.
+PropertyKeyConst is a flyweight factory.
+IS_USE_CLOUD_NAMESPACE_PARSING is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/PropertyKeyConst.java
+
+Flyweight Pattern.
+SystemEnv is a flyweight factory.
+ALIBABA_ALIWARE_ENDPOINT_PORT is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/PropertyKeyConst.java
+
+Flyweight Pattern.
+CommonParams is a flyweight factory.
+CODE is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/naming/CommonParams.java
+
+Flyweight Pattern.
+PreservedMetadataKeys is a flyweight factory.
+REGISTER_SOURCE is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/naming/PreservedMetadataKeys.java
+
+Flyweight Pattern.
+NamingRemoteConstants is a flyweight factory.
+REGISTER_INSTANCE is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/naming/remote/NamingRemoteConstants.java
+
+Flyweight Pattern.
+RemoteConstants is a flyweight factory.
+LABEL_SOURCE is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/remote/RemoteConstants.java
+
+Flyweight Pattern.
+SystemPropertyKeyConst is a flyweight factory.
+NAMING_SERVER_PORT is a flyweight object (declared public-static-final).
+File location: nacos-develop/api/src/main/java/com/alibaba/nacos/api/SystemPropertyKeyConst.java
+
+Flyweight Pattern.
+HttpHeaderConsts is a flyweight factory.
+CLIENT_VERSION_HEADER is a flyweight object (declared public-static-final).
+File location: nacos-develop/common/src/main/java/com/alibaba/nacos/common/constant/HttpHeaderConsts.java
+
+Flyweight Pattern.
+NacosAuthLoginConstant is a flyweight factory.
+ACCESSTOKEN is a flyweight object (declared public-static-final).
+File location: nacos-develop/client/src/main/java/com/alibaba/nacos/client/auth/impl/NacosAuthLoginConstant.java
+
+Flyweight Pattern.
+RequestUrlConstants is a flyweight factory.
+HTTP_PREFIX is a flyweight object (declared public-static-final).
+File location: nacos-develop/common/src/main/java/com/alibaba/nacos/common/constant/RequestUrlConstants.java
+
+Flyweight Pattern.
+UtilAndComs is a flyweight factory.
+ENV_LIST_KEY is a flyweight object (declared public-static-final).
+File location: nacos-develop/client/src/main/java/com/alibaba/nacos/client/naming/utils/UtilAndComs.java
+
+Flyweight Pattern.
+IdentifyConstants is a flyweight factory.
+ACCESS_KEY is a flyweight object (declared public-static-final).
+File location: nacos-develop/client/src/main/java/com/alibaba/nacos/client/auth/ram/identify/IdentifyConstants.java
+
+Flyweight Pattern.
+HttpMethod is a flyweight factory.
+GET is a flyweight object (declared public-static-final).
+File location: nacos-develop/common/src/main/java/com/alibaba/nacos/common/utils/HttpMethod.java
+
+Flyweight Pattern.
+ConfigConstants is a flyweight factory.
+TENANT is a flyweight object (declared public-static-final).
+File location: nacos-develop/client/src/main/java/com/alibaba/nacos/client/config/common/ConfigConstants.java
+
+Flyweight Pattern.
+UtilsAndCommons is a flyweight factory.
+NACOS_CMDB_CONTEXT is a flyweight object (declared public-static-final).
+File location: nacos-develop/cmdb/src/main/java/com/alibaba/nacos/cmdb/utils/UtilsAndCommons.java
+
+Flyweight Pattern.
+DateFormatUtils is a flyweight factory.
+YYYYMMDD is a flyweight object (declared public-static-final).
+File location: nacos-develop/common/src/main/java/com/alibaba/nacos/common/utils/DateFormatUtils.java
+
+Flyweight Pattern.
+MemberMetaDataConstants is a flyweight factory.
+RAFT_PORT is a flyweight object (declared public-static-final).
+File location: nacos-develop/core/src/main/java/com/alibaba/nacos/core/cluster/MemberMetaDataConstants.java
+
+Flyweight Pattern.
+MetadataKey is a flyweight factory.
+LEADER_META_DATA is a flyweight object (declared public-static-final).
+File location: nacos-develop/consistency/src/main/java/com/alibaba/nacos/consistency/cp/MetadataKey.java
+
+Flyweight Pattern.
+DerbyLoadEvent is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: nacos-develop/config/src/main/java/com/alibaba/nacos/config/server/model/event/DerbyLoadEvent.java
+
+Flyweight Pattern.
+StatConstants is a flyweight factory.
+APP_NAME is a flyweight object (declared public-static-final).
+File location: nacos-develop/config/src/main/java/com/alibaba/nacos/config/server/utils/StatConstants.java
+
+Flyweight Pattern.
+DistroConstants is a flyweight factory.
+DATA_SYNC_DELAY_MILLISECONDS is a flyweight object (declared public-static-final).
+File location: nacos-develop/core/src/main/java/com/alibaba/nacos/core/distributed/distro/DistroConstants.java
+
+Flyweight Pattern.
+ApiConstants is a flyweight factory.
+API_TYPE_PREFIX is a flyweight object (declared public-static-final).
+File location: nacos-develop/istio/src/main/java/com/alibaba/nacos/istio/api/ApiConstants.java
+
+Facade Pattern.
+AppNameUtils is a facade class.
+Hidden types: NacosClientProperties StringUtils
+Facade access types: AppNameUtils
+File Location: nacos-develop/client/src/main/java/com/alibaba/nacos/client/utils/AppNameUtils.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      1
+Composite                   0
+Decorator                   0
+Facade                      1
+Flyweight                  25
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 152
+Number of files processed: 1357
+Size of DelegationTable: 129
+Size of concrete class nodes: 113
+Size of undirected invocation edges: 22
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/25
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.
+find: ‘./pinot’ terminated by signal 11

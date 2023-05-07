@@ -1,0 +1,2 @@
+pinot: ast.h:6700: void AstModifiers::AllocateModifiers(unsigned int): Assertion `! modifiers && estimate' failed.
+find: ‘./pinot’ terminated by signal 6

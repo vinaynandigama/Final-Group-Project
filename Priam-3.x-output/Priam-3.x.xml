@@ -1,0 +1,2 @@
+pinot: body.cpp:1398: bool Semantic::UncaughtException(TypeSymbol*): Assertion `ctor' failed.
+find: ‘./pinot’ terminated by signal 6
