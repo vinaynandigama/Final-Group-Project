@@ -1,0 +1,143 @@
+pinot: ast.h:6700: void AstModifiers::AllocateModifiers(unsigned int): Assertion `! modifiers && estimate' failed.
+find: ‘./pinot’ terminated by signal 6
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+InnerInnerClass is a flyweight factory.
+MY_INT is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/differentiate_dot_expressions/com/packageName/InnerStaticClassFieldContainer.java
+
+Flyweight Pattern.
+InterfaceExcludedJar is a flyweight factory.
+INTERFACE_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/excluded_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/excluded_jar/InterfaceExcludedJar.java
+
+Flyweight Pattern.
+SuperClassExcludedJar is a flyweight factory.
+SUPER_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/excluded_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/excluded_jar/SuperClassExcludedJar.java
+
+Flyweight Pattern.
+InterfaceIncludedJar is a flyweight factory.
+INTERFACE_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/included_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/included_jar/InterfaceIncludedJar.java
+
+Flyweight Pattern.
+SuperClassIncludedJar is a flyweight factory.
+SUPER_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/included_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/included_jar/SuperClassIncludedJar.java
+
+Flyweight Pattern.
+ConcreteClass is a flyweight factory.
+STATIC_STRING is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/ConcreteClass.java
+
+Flyweight Pattern.
+InterfaceOwnJar is a flyweight factory.
+INTERFACE_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/InterfaceOwnJar.java
+
+Flyweight Pattern.
+InterfaceUserExcludedJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/InterfaceUserExcludedJar.java
+
+Flyweight Pattern.
+InterfaceUserIncludedJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/InterfaceUserIncludedJar.java
+
+Flyweight Pattern.
+InterfaceUserOwnJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/InterfaceUserOwnJar.java
+
+Flyweight Pattern.
+StandaloneInterface is a flyweight factory.
+STATIC_STRING is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/StandaloneInterface.java
+
+Flyweight Pattern.
+SubClassExcludedJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/SubClassExcludedJar.java
+
+Flyweight Pattern.
+SubClassIncludedJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/SubClassIncludedJar.java
+
+Flyweight Pattern.
+SuperClassOwnJar is a flyweight factory.
+SUPER_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/SuperClassOwnJar.java
+
+Flyweight Pattern.
+SubClassOwnJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/SubClassOwnJar.java
+
+Flyweight Pattern.
+SubInterfaceExcludedJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/SubInterfaceExcludedJar.java
+
+Flyweight Pattern.
+SubInterfaceIncludedJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/SubInterfaceIncludedJar.java
+
+Flyweight Pattern.
+SubInterfaceOwnJar is a flyweight factory.
+OWN_FIELD is a flyweight object (declared public-static-final).
+File location: javaparser-master/javaparser-symbol-solver-testing/src/test/resources/javassist_symbols/main_jar/src/com/github/javaparser/javasymbolsolver/javassist_symbols/main_jar/SubInterfaceOwnJar.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                  18
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 94
+Number of files processed: 723
+Size of DelegationTable: 53
+Size of concrete class nodes: 62
+Size of undirected invocation edges: 2
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/18
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.

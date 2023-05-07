@@ -1,0 +1,257 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+TaskType is a flyweight factory.
+JENKINS_TASK is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/NoticeConstants.java
+
+Flyweight Pattern.
+Mode is a flyweight factory.
+API is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/NoticeConstants.java
+
+Flyweight Pattern.
+Type is a flyweight factory.
+EMAIL is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/NoticeConstants.java
+
+Flyweight Pattern.
+Event is a flyweight factory.
+EXECUTE_SUCCESSFUL is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/NoticeConstants.java
+
+Flyweight Pattern.
+RelatedUser is a flyweight factory.
+CREATOR is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/NoticeConstants.java
+
+Flyweight Pattern.
+BasicConstant is a flyweight factory.
+REQUIRED is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/json/BasicConstant.java
+
+Flyweight Pattern.
+ApiHomeFilterEnum is a flyweight factory.
+COVERED is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/commons/enums/ApiHomeFilterEnum.java
+
+Flyweight Pattern.
+MinIOConfigEnum is a flyweight factory.
+ENDPOINT is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/jmeter/src/main/java/io/metersphere/enums/MinIOConfigEnum.java
+
+Flyweight Pattern.
+ExtendedParameter is a flyweight factory.
+SYNC_STATUS is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/commons/constants/ExtendedParameter.java
+
+Flyweight Pattern.
+KafkaTopicConstants is a flyweight factory.
+PROJECT_DELETED_TOPIC is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/KafkaTopicConstants.java
+
+Flyweight Pattern.
+MockConfigStaticData is a flyweight factory.
+MOCK_EVN_NAME is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/api/dto/mock/config/MockConfigStaticData.java
+
+Flyweight Pattern.
+CommonConstants is a flyweight factory.
+TRASH_STATUS is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/commons/constants/CommonConstants.java
+
+Flyweight Pattern.
+MockApiHeaders is a flyweight factory.
+MOCK_API_RESOURCE_ID is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/api/dto/mock/MockApiHeaders.java
+
+Flyweight Pattern.
+RequestTypeConstants is a flyweight factory.
+HTTP is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/commons/constants/RequestTypeConstants.java
+
+Flyweight Pattern.
+RunningParamKeys is a flyweight factory.
+RUNNING_DEBUG_SAMPLER_NAME is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/api/dto/RunningParamKeys.java
+
+Flyweight Pattern.
+PropertyConstant is a flyweight factory.
+REQUIRED is a flyweight object (declared public-static-final).
+File location: metersphere-main/api-test/backend/src/main/java/io/metersphere/commons/constants/PropertyConstant.java
+
+Flyweight Pattern.
+MicroServiceName is a flyweight factory.
+API_TEST is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/MicroServiceName.java
+
+Flyweight Pattern.
+SwaggerParameterType is a flyweight factory.
+PATH is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/SwaggerParameterType.java
+
+Flyweight Pattern.
+PermissionConstants is a flyweight factory.
+SYSTEM_USER_READ is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/PermissionConstants.java
+
+Flyweight Pattern.
+MsHashTreeConstants is a flyweight factory.
+CASE is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/MsHashTreeConstants.java
+
+Flyweight Pattern.
+SessionConstants is a flyweight factory.
+ATTR_USER is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/SessionConstants.java
+
+Flyweight Pattern.
+UserStatus is a flyweight factory.
+NORMAL is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/UserStatus.java
+
+Flyweight Pattern.
+RedisKey is a flyweight factory.
+MS_PERMISSION_KEY is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/RedisKey.java
+
+Flyweight Pattern.
+CommandType is a flyweight factory.
+COMMAND_TYPE_ATOM is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/CommandType.java
+
+Flyweight Pattern.
+OperatorTypeConstants is a flyweight factory.
+NOT_IN is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/OperatorTypeConstants.java
+
+Flyweight Pattern.
+UserGroupConstants is a flyweight factory.
+SUPER_GROUP is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/UserGroupConstants.java
+
+Flyweight Pattern.
+UserGroupType is a flyweight factory.
+SYSTEM is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/commons/constants/UserGroupType.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                  27
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 42
+Number of files processed: 1222
+Size of DelegationTable: 9
+Size of concrete class nodes: 28
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/27
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+OperatorLevel is a flyweight factory.
+SYSTEM is a flyweight object (declared public-static-final).
+File location: metersphere-main/framework/sdk-parent/sdk/src/main/java/io/metersphere/log/constants/OperatorLevel.java
+
+Flyweight Pattern.
+TrackCount is a flyweight factory.
+P0 is a flyweight object (declared public-static-final).
+File location: metersphere-main/test-track/backend/src/main/java/io/metersphere/request/testcase/TrackCount.java
+
+Flyweight Pattern.
+SystemCustomField is a flyweight factory.
+ISSUE_STATUS is a flyweight object (declared public-static-final).
+File location: metersphere-main/test-track/backend/src/main/java/io/metersphere/constants/SystemCustomField.java
+
+Flyweight Pattern.
+VumProcessedStatus is a flyweight factory.
+PROCESSED is a flyweight object (declared public-static-final).
+File location: metersphere-main/performance-test/backend/src/main/java/io/metersphere/dto/VumProcessedStatus.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   4
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 19
+Number of files processed: 1105
+Size of DelegationTable: 0
+Size of concrete class nodes: 8
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/4
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.

@@ -1,0 +1,214 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+LineProtoException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: dolphinscheduler-dev-output/core/src/main/java/io/dolphinscheduler/cutlass/line/LineProtoException.java
+
+Flyweight Pattern.
+AuthenticationException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: dolphinscheduler-dev-output/core/src/main/java/io/dolphinscheduler/cutlass/pgwire/AuthenticationException.java
+
+Flyweight Pattern.
+BadProtocolException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/cutlass/pgwire/BadProtocolException.java
+
+Flyweight Pattern.
+AuthenticatorException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/cutlass/auth/AuthenticatorException.java
+
+Flyweight Pattern.
+AlterTableContextException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/cairo/AlterTableContextException.java
+
+Flyweight Pattern.
+IndexFrame is a flyweight factory.
+NULL_INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/cairo/IndexFrame.java
+
+Flyweight Pattern.
+InvalidColumnException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/cairo/sql/InvalidColumnException.java
+
+Flyweight Pattern.
+WriterOutOfDateException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/cairo/sql/WriterOutOfDateException.java
+
+Flyweight Pattern.
+Utf8Exception is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/cutlass/text/Utf8Exception.java
+
+Flyweight Pattern.
+Constants is a flyweight factory.
+DB_NAME is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/griffin/engine/functions/catalogue/Constants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                  10
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 55
+Number of files processed: 1363
+Size of DelegationTable: 3
+Size of concrete class nodes: 30
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/10
+nFlyweightGoFVersion = 0
+
+--------- Original GoF Patterns ----------
+
+
+
+Strategy Pattern.
+LogWriterConfig is the Context class.
+LogWriterFactory is the Strategy interface.
+Concrete Strategy classes: 
+Delegation through factory of type LogWriterFactory
+File Location: questdb-master/core/src/main/java/io/questdb/log/LogWriterConfig.java,
+               questdb-master/core/src/main/java/io/questdb/log/LogWriterFactory.java
+
+Flyweight Pattern.
+NumericException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/std/NumericException.java
+
+Flyweight Pattern.
+SqlKeywords is a flyweight factory.
+CONCAT_FUNC_NAME is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/griffin/SqlKeywords.java
+
+Flyweight Pattern.
+NoMoreFramesException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/griffin/engine/table/NoMoreFramesException.java
+
+Flyweight Pattern.
+PeerDisconnectedException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/network/PeerDisconnectedException.java
+
+Flyweight Pattern.
+PeerIsSlowToReadException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/network/PeerIsSlowToReadException.java
+
+Flyweight Pattern.
+PeerIsSlowToWriteException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/network/PeerIsSlowToWriteException.java
+
+Flyweight Pattern.
+ServerDisconnectException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/network/ServerDisconnectException.java
+
+Flyweight Pattern.
+BytecodeException is a flyweight factory.
+INSTANCE is a flyweight object (declared public-static-final).
+File location: questdb-master/core/src/main/java/io/questdb/std/ex/BytecodeException.java
+
+Facade Pattern.
+FastFloatParser is a facade class.
+Hidden types: FastFloat FastFloatByteArray FastFloatCharArray
+Facade access types: FastFloatParser
+File Location: questdb-master/core/src/main/java/io/questdb/std/fastdouble/FastFloatParser.java
+
+Facade Pattern.
+FastDoubleParser is a facade class.
+Hidden types: FastDouble FastDoubleByteArray FastDoubleMem FastDoubleCharArray
+Facade access types: FastDoubleParser
+File Location: questdb-master/core/src/main/java/io/questdb/std/fastdouble/FastDoubleParser.java
+
+Facade Pattern.
+SqlKeywords is a facade class.
+Hidden types: Chars LowerCaseCharSequenceHashSet
+Facade access types: SqlKeywords
+File Location: questdb-master/core/src/main/java/io/questdb/griffin/SqlKeywords.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      3
+Flyweight                   8
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 69
+Number of files processed: 1433
+Size of DelegationTable: 1201
+Size of concrete class nodes: 41
+Size of undirected invocation edges: 13
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/8
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.

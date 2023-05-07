@@ -1,0 +1,63 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+SourceMapParseException is immutable.
+File location: closure-compiler-master/src/com/google/debugging/sourcemap/SourceMapParseException.java
+
+Flyweight Pattern.
+ServiceException is immutable.
+File location: closure-compiler-master/src/com/google/javascript/jscomp/deps/ServiceException.java
+
+Flyweight Pattern.
+OutputCharsetEncoder is immutable.
+File location: closure-compiler-master/src/com/google/javascript/jscomp/j2clbuild/super/com/google/javascript/jscomp/OutputCharsetEncoder.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   3
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 49
+Number of files processed: 1309
+Size of DelegationTable: 50
+Size of concrete class nodes: 34
+Size of undirected invocation edges: 1
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 3/3
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.

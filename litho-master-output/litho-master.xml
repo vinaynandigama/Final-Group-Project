@@ -1,0 +1,143 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Strategy Pattern.
+TransitionEndEvent is the Context class.
+AnimatedProperty is the Strategy interface.
+Concrete Strategy classes:  XAnimatedProperty YAnimatedProperty WidthAnimatedProperty HeightAnimatedProperty AlphaAnimatedProperty ScaleAnimatedProperty ScaleXAnimatedProperty ScaleYAnimatedProperty RotationAnimatedProperty
+Delegation through property of type AnimatedProperty
+File Location: litho-master/litho-rendercore-transitions/src/main/java/com/facebook/litho/TransitionEndEvent.java,
+               litho-master/litho-rendercore-transitions/src/main/java/com/facebook/litho/animation/AnimatedProperty.java
+
+Flyweight Pattern.
+LithoClassNames is a flyweight factory.
+CLICK_EVENT_CLASS_NAME is a flyweight object (declared public-static-final).
+File location: litho-master/litho-intellij-plugin/src/main/java/com/facebook/litho/intellij/LithoClassNames.java
+
+Flyweight Pattern.
+GeneratorConstants is a flyweight factory.
+ABSTRACT_PARAM_NAME is a flyweight object (declared public-static-final).
+File location: litho-master/litho-processor/src/main/java/com/facebook/litho/specmodels/generator/GeneratorConstants.java
+
+Flyweight Pattern.
+IncrementalMountExtensionConfigs is a flyweight factory.
+DEBUG_TAG is a flyweight object (declared public-static-final).
+File location: litho-master/litho-rendercore-incremental-mount/src/main/java/com/facebook/rendercore/incrementalmount/IncrementalMountExtensionConfigs.java
+
+Flyweight Pattern.
+VisibilityExtensionConfigs is a flyweight factory.
+DEBUG_TAG is a flyweight object (declared public-static-final).
+File location: litho-master/litho-rendercore-visibility/src/main/java/com/facebook/rendercore/visibility/VisibilityExtensionConfigs.java
+
+Flyweight Pattern.
+SectionsDebugParams is a flyweight factory.
+SECTION_GLOBAL_KEY is a flyweight object (declared public-static-final).
+File location: litho-master/litho-sections-core/src/main/java/com/facebook/litho/sections/SectionsDebugParams.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   5
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 55
+Number of files processed: 1257
+Size of DelegationTable: 9
+Size of concrete class nodes: 24
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/5
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.
+
+--------- Original GoF Patterns ----------
+
+
+
+Strategy Pattern.
+ExternalEventObserver is the Context class.
+Listener is the Strategy interface.
+Concrete Strategy classes:  StateUpdateFromOutsideTreeWithListenerComponentSpec$1
+Delegation through mListener of type Listener
+File Location: litho-master/sample/src/main/java/com/facebook/samples/litho/java/stateupdates/ExternalEventObserver.java,
+               litho-master/sample/src/main/java/com/facebook/samples/litho/java/stateupdates/ExternalEventObserver.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   0
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 13
+Number of files processed: 349
+Size of DelegationTable: 7
+Size of concrete class nodes: 5
+Size of undirected invocation edges: 1
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/0
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.

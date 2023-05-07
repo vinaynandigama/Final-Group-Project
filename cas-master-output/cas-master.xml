@@ -1,0 +1,457 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+RememberMeCredential is a flyweight factory.
+AUTHENTICATION_ATTRIBUTE_REMEMBER_ME is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-authentication/src/main/java/org/apereo/cas/authentication/RememberMeCredential.java
+
+Flyweight Pattern.
+ProxyTicket is a flyweight factory.
+PROXY_TICKET_PREFIX is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-ticket/src/main/java/org/apereo/cas/ticket/proxy/ProxyTicket.java
+
+Flyweight Pattern.
+AuditableActions is a flyweight factory.
+MULTIFACTOR_AUTHENTICATION_BYPASS is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-audit/src/main/java/org/apereo/cas/audit/AuditableActions.java
+
+Flyweight Pattern.
+AuditActionResolvers is a flyweight factory.
+SAML2_METADATA_RESOLUTION_ACTION_RESOLVER is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-audit/src/main/java/org/apereo/cas/audit/AuditActionResolvers.java
+
+Flyweight Pattern.
+AuditPrincipalResolvers is a flyweight factory.
+REQUEST_CHANGE_PASSWORD_PRINCIPAL_RESOLVER is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-audit/src/main/java/org/apereo/cas/audit/AuditPrincipalResolvers.java
+
+Flyweight Pattern.
+AuditResourceResolvers is a flyweight factory.
+SAML2_METADATA_RESOLUTION_RESOURCE_RESOLVER is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-audit/src/main/java/org/apereo/cas/audit/AuditResourceResolvers.java
+
+Flyweight Pattern.
+AuditTrailConstants is a flyweight factory.
+AUDIT_ACTION_POSTFIX_SUCCESS is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-audit/src/main/java/org/apereo/cas/audit/AuditTrailConstants.java
+
+Flyweight Pattern.
+CasProtocolConstants is a flyweight factory.
+VALIDATION_CAS_MODEL_PROXY_GRANTING_TICKET is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-protocol/src/main/java/org/apereo/cas/CasProtocolConstants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   8
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 12
+Number of files processed: 896
+Size of DelegationTable: 0
+Size of concrete class nodes: 0
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/8
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+CasWebflowConstants is a flyweight factory.
+BEAN_NAME_ACCOUNT_PROFILE_FLOW_DEFINITION_REGISTRY is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-webflow/src/main/java/org/apereo/cas/web/flow/CasWebflowConstants.java
+
+Flyweight Pattern.
+UrlValidator is a flyweight factory.
+BEAN_NAME is a flyweight object (declared public-static-final).
+File location: cas-master/core/cas-server-core-web-api/src/main/java/org/apereo/cas/web/UrlValidator.java
+
+Flyweight Pattern.
+CasViewConstants is a flyweight factory.
+MODEL_ATTRIBUTE_NAME_PRINCIPAL_CREDENTIAL is a flyweight object (declared public-static-final).
+File location: cas-master/api/cas-server-core-api-web/src/main/java/org/apereo/cas/CasViewConstants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   3
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 15
+Number of files processed: 1054
+Size of DelegationTable: 0
+Size of concrete class nodes: 5
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/3
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.
+
+--------- Original GoF Patterns ----------
+
+
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   0
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 0
+Number of files processed: 976
+Size of DelegationTable: 0
+Size of concrete class nodes: 0
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/0
+nFlyweightGoFVersion = 0
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+Authenticators is a flyweight factory.
+CAS_OAUTH_CLIENT is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-oauth-api/src/main/java/org/apereo/cas/support/oauth/authenticator/Authenticators.java
+
+Flyweight Pattern.
+OAuth20Constants is a flyweight factory.
+PROMPT is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-oauth-api/src/main/java/org/apereo/cas/support/oauth/OAuth20Constants.java
+
+Flyweight Pattern.
+WebflowConstants is a flyweight factory.
+PENDING is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-inwebo-mfa/src/main/java/org/apereo/cas/support/inwebo/web/flow/actions/WebflowConstants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   3
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 6
+Number of files processed: 955
+Size of DelegationTable: 0
+Size of concrete class nodes: 1
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/3
+nFlyweightGoFVersion = 0
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+ClientCustomPropertyConstants is a flyweight factory.
+CLIENT_CUSTOM_PROPERTY_PRINCIPAL_ATTRIBUTE_ID is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-pac4j-api/src/main/java/org/apereo/cas/authentication/principal/ClientCustomPropertyConstants.java
+
+Flyweight Pattern.
+SamlProtocolConstants is a flyweight factory.
+PARAMETER_SAML_ACS_URL is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-saml-core-api/src/main/java/org/apereo/cas/support/saml/SamlProtocolConstants.java
+
+Flyweight Pattern.
+QRAuthenticationConstants is a flyweight factory.
+QR_SIMPLE_BROKER_DESTINATION_PREFIX is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-qr-authentication/src/main/java/org/apereo/cas/qr/QRAuthenticationConstants.java
+
+Flyweight Pattern.
+RestProtocolConstants is a flyweight factory.
+BASE_ENDPOINT is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-rest-core/src/main/java/org/apereo/cas/support/rest/resources/RestProtocolConstants.java
+
+Flyweight Pattern.
+SamlIdPConstants is a flyweight factory.
+BASE_ENDPOINT_IDP is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-saml-idp-core/src/main/java/org/apereo/cas/support/saml/SamlIdPConstants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   5
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 5
+Number of files processed: 928
+Size of DelegationTable: 0
+Size of concrete class nodes: 0
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/5
+nFlyweightGoFVersion = 0
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+TokenConstants is a flyweight factory.
+PARAMETER_NAME_TOKEN is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-token-core-api/src/main/java/org/apereo/cas/token/TokenConstants.java
+
+Flyweight Pattern.
+CasShellCommand is a flyweight factory.
+NAMESPACE is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-shell-core/src/main/java/org/apereo/cas/shell/commands/CasShellCommand.java
+
+Flyweight Pattern.
+CasSimpleMultifactorAuthenticationConstants is a flyweight factory.
+PROPERTY_PRINCIPAL is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-simple-mfa-core/src/main/java/org/apereo/cas/mfa/simple/CasSimpleMultifactorAuthenticationConstants.java
+
+Flyweight Pattern.
+JcifsConfigConstants is a flyweight factory.
+SYS_PROP_USE_SUBJECT_CRED_ONLY is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-spnego/src/main/java/org/apereo/cas/support/spnego/authentication/handler/support/JcifsConfigConstants.java
+
+Flyweight Pattern.
+SpnegoConstants is a flyweight factory.
+HEADER_AUTHENTICATE is a flyweight object (declared public-static-final).
+File location: cas-master/support/cas-server-support-spnego/src/main/java/org/apereo/cas/support/spnego/util/SpnegoConstants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   5
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 6
+Number of files processed: 949
+Size of DelegationTable: 0
+Size of concrete class nodes: 0
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/5
+nFlyweightGoFVersion = 0
+
+--------- Original GoF Patterns ----------
+
+
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   0
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 1
+Number of files processed: 418
+Size of DelegationTable: 0
+Size of concrete class nodes: 0
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/0
+nFlyweightGoFVersion = 0

@@ -1,0 +1,77 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Strategy Pattern.
+Log is the Context class.
+DynmapLogger is the Strategy interface.
+Concrete Strategy classes:  OurLog OurLog OurLog OurLog OurLog OurLog OurLog OurLog OurLog FabricLogger FabricLogger FabricLogger FabricLogger FabricLogger FabricLogger FabricLogger FabricLogger FabricLogger
+Delegation through dlog of type DynmapLogger
+File Location: dynmap-3.0/DynmapCore/src/main/java/org/dynmap/Log.java,
+               dynmap-3.0/DynmapCore/src/main/java/org/dynmap/utils/DynmapLogger.java
+
+Flyweight Pattern.
+Version is a flyweight factory.
+VER is a flyweight object (declared public-static-final).
+File location: dynmap-3.0/forge-1.12.2/src/main/java/org/dynmap/forge_1_12_2/Version.java
+
+Flyweight Pattern.
+NullDebugger is a flyweight factory.
+instance is a flyweight object (declared public-static-final).
+File location: dynmap-3.0/DynmapCore/src/main/java/org/dynmap/debug/NullDebugger.java
+
+Flyweight Pattern.
+HttpField is a flyweight factory.
+Accept is a flyweight object (declared public-static-final).
+File location: dynmap-3.0/DynmapCore/src/main/java/org/dynmap/web/HttpField.java
+
+Mediator Pattern.
+DynLongHashMap is the mediator class.
+table controls a list of colleagues of type Entry.
+eq invokes the mediator. 
+Subtype(s) of colleague(s): 
+File Location: dynmap-3.0/DynmapCore/src/main/java/org/dynmap/utils/DynLongHashMap.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   3
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    1
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 101
+Number of files processed: 754
+Size of DelegationTable: 60
+Size of concrete class nodes: 63
+Size of undirected invocation edges: 6
+
+
+nMediatorFacadeDual/nMediator = 0/1
+nImmutable/nFlyweight = 0/3
+nFlyweightGoFVersion = 0

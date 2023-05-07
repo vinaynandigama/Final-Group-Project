@@ -1,0 +1,56 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+Constants is a flyweight factory.
+MASTERKEY_FILENAME is a flyweight object (declared public-static-final).
+File location: cryptomator-develop/src/main/java/org/cryptomator/common/Constants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   1
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 8
+Number of files processed: 326
+Size of DelegationTable: 0
+Size of concrete class nodes: 6
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/1
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.

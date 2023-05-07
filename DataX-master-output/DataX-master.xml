@@ -1,0 +1,285 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Strategy Pattern.
+TransformerInfo is the Context class.
+ComplexTransformer is the Strategy interface.
+Concrete Strategy classes:  ComplexTransformerProxy
+Delegation through transformer of type ComplexTransformer
+File Location: DataX-master/core/src/main/java/com/alibaba/datax/core/transport/transformer/TransformerInfo.java,
+               DataX-master/transformer/src/main/java/com/alibaba/datax/transformer/ComplexTransformer.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+COLUMN is a flyweight object (declared public-static-final).
+File location: DataX-master/adbpgwriter/src/main/java/com/alibaba/datax/plugin/writer/adbpgwriter/util/Key.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+COLUMN_QUOTE_CHARACTER is a flyweight object (declared public-static-final).
+File location: DataX-master/adbpgwriter/src/main/java/com/alibaba/datax/plugin/writer/adbpgwriter/util/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+LOADMODE is a flyweight object (declared public-static-final).
+File location: DataX-master/adswriter/src/main/java/com/alibaba/datax/plugin/writer/adswriter/util/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+SOURCE_FILES is a flyweight object (declared public-static-final).
+File location: DataX-master/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+DEFAULT_FTP_CONNECT_PATTERN is a flyweight object (declared public-static-final).
+File location: DataX-master/ftpwriter/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/util/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+PK_TYPE is a flyweight object (declared public-static-final).
+File location: DataX-master/hbase20xsqlreader/src/main/java/com/alibaba/datax/plugin/reader/hbase20xsqlreader/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+SOURCE_FILES is a flyweight object (declared public-static-final).
+File location: DataX-master/hdfsreader/src/main/java/com/alibaba/datax/plugin/reader/hdfsreader/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+DEFAULT_ENCODING is a flyweight object (declared public-static-final).
+File location: DataX-master/hdfswriter/src/main/java/com/alibaba/datax/plugin/writer/hdfswriter/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+START_INDEX is a flyweight object (declared public-static-final).
+File location: DataX-master/odpsreader/src/main/java/com/alibaba/datax/plugin/reader/odpsreader/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+OBJECT is a flyweight object (declared public-static-final).
+File location: DataX-master/ossreader/src/main/java/com/alibaba/datax/plugin/reader/ossreader/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+OBJECT is a flyweight object (declared public-static-final).
+File location: DataX-master/osswriter/src/main/java/com/alibaba/datax/plugin/writer/osswriter/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+TYPE is a flyweight object (declared public-static-final).
+File location: DataX-master/streamreader/src/main/java/com/alibaba/datax/plugin/reader/streamreader/Constant.java
+
+Flyweight Pattern.
+Constant is a flyweight factory.
+SOURCE_FILES is a flyweight object (declared public-static-final).
+File location: DataX-master/txtfilereader/src/main/java/com/alibaba/datax/plugin/reader/txtfilereader/Constant.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+USERNAME is a flyweight object (declared public-static-final).
+File location: DataX-master/cassandrareader/src/main/java/com/alibaba/datax/plugin/reader/cassandrareader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+USERNAME is a flyweight object (declared public-static-final).
+File location: DataX-master/cassandrawriter/src/main/java/com/alibaba/datax/plugin/writer/cassandrawriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+PROTOCOL is a flyweight object (declared public-static-final).
+File location: DataX-master/ftpreader/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+PROTOCOL is a flyweight object (declared public-static-final).
+File location: DataX-master/ftpwriter/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+TABLE is a flyweight object (declared public-static-final).
+File location: DataX-master/hbase20xsqlreader/src/main/java/com/alibaba/datax/plugin/reader/hbase20xsqlreader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+TABLE is a flyweight object (declared public-static-final).
+File location: DataX-master/hbase20xsqlwriter/src/main/java/com/alibaba/datax/plugin/writer/hbase20xsqlwriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+PATH is a flyweight object (declared public-static-final).
+File location: DataX-master/hdfswriter/src/main/java/com/alibaba/datax/plugin/writer/hdfswriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+KUDU_CONFIG is a flyweight object (declared public-static-final).
+File location: DataX-master/kuduwriter/src/main/java/com/q1/datax/plugin/writer/kudu11xwriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+ACCESS_ID is a flyweight object (declared public-static-final).
+File location: DataX-master/odpsreader/src/main/java/com/alibaba/datax/plugin/reader/odpsreader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+ENDPOINT is a flyweight object (declared public-static-final).
+File location: DataX-master/ossreader/src/main/java/com/alibaba/datax/plugin/reader/ossreader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+ENDPOINT is a flyweight object (declared public-static-final).
+File location: DataX-master/osswriter/src/main/java/com/alibaba/datax/plugin/writer/osswriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+COLUMN is a flyweight object (declared public-static-final).
+File location: DataX-master/plugin-unstructured-storage-util/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+PATH is a flyweight object (declared public-static-final).
+File location: DataX-master/plugin-unstructured-storage-util/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/writer/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+FETCH_SIZE is a flyweight object (declared public-static-final).
+File location: DataX-master/sqlserverreader/src/main/java/com/alibaba/datax/plugin/reader/sqlserverreader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+COLUMN is a flyweight object (declared public-static-final).
+File location: DataX-master/streamreader/src/main/java/com/alibaba/datax/plugin/reader/streamreader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+FIELD_DELIMITER is a flyweight object (declared public-static-final).
+File location: DataX-master/streamwriter/src/main/java/com/alibaba/datax/plugin/writer/streamwriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+USERNAME is a flyweight object (declared public-static-final).
+File location: DataX-master/tdenginewriter/src/main/java/com/alibaba/datax/plugin/writer/tdenginewriter/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+PATH is a flyweight object (declared public-static-final).
+File location: DataX-master/txtfilereader/src/main/java/com/alibaba/datax/plugin/reader/txtfilereader/Key.java
+
+Flyweight Pattern.
+Key is a flyweight factory.
+PATH is a flyweight object (declared public-static-final).
+File location: DataX-master/txtfilewriter/src/main/java/com/alibaba/datax/plugin/writer/txtfilewriter/Key.java
+
+Flyweight Pattern.
+TransferProjectConf is a flyweight factory.
+KEY_ACCESS_ID is a flyweight object (declared public-static-final).
+File location: DataX-master/adswriter/src/main/java/com/alibaba/datax/plugin/writer/adswriter/load/TransferProjectConf.java
+
+Flyweight Pattern.
+KeyConstant is a flyweight factory.
+ARRAY_TYPE is a flyweight object (declared public-static-final).
+File location: DataX-master/mongodbreader/src/main/java/com/alibaba/datax/plugin/reader/mongodbreader/KeyConstant.java
+
+Flyweight Pattern.
+KeyConstant is a flyweight factory.
+MONGO_ADDRESS is a flyweight object (declared public-static-final).
+File location: DataX-master/mongodbwriter/src/main/java/com/alibaba/datax/plugin/writer/mongodbwriter/KeyConstant.java
+
+Flyweight Pattern.
+Config is a flyweight factory.
+QUERY_TIMEOUT_SECOND is a flyweight object (declared public-static-final).
+File location: DataX-master/oceanbasev10reader/src/main/java/com/alibaba/datax/plugin/reader/oceanbasev10reader/Config.java
+
+Flyweight Pattern.
+Config is a flyweight factory.
+MEMSTORE_THRESHOLD is a flyweight object (declared public-static-final).
+File location: DataX-master/oceanbasev10writer/src/main/java/com/alibaba/datax/plugin/writer/oceanbasev10writer/Config.java
+
+Flyweight Pattern.
+ObReaderKey is a flyweight factory.
+READ_BY_PARTITION is a flyweight object (declared public-static-final).
+File location: DataX-master/oceanbasev10reader/src/main/java/com/alibaba/datax/plugin/reader/oceanbasev10reader/ext/ObReaderKey.java
+
+Flyweight Pattern.
+OdpsExceptionMsg is a flyweight factory.
+ODPS_PROJECT_NOT_FOUNT is a flyweight object (declared public-static-final).
+File location: DataX-master/odpsreader/src/main/java/com/alibaba/datax/plugin/reader/odpsreader/util/OdpsExceptionMsg.java
+
+Flyweight Pattern.
+OdpsExceptionMsg is a flyweight factory.
+ODPS_PROJECT_NOT_FOUNT is a flyweight object (declared public-static-final).
+File location: DataX-master/odpswriter/src/main/java/com/alibaba/datax/plugin/writer/odpswriter/util/OdpsExceptionMsg.java
+
+Flyweight Pattern.
+OTSConst is a flyweight factory.
+TYPE_STRING is a flyweight object (declared public-static-final).
+File location: DataX-master/otswriter/src/main/java/com/alibaba/datax/plugin/writer/otswriter/model/OTSConst.java
+
+Flyweight Pattern.
+OTSConst is a flyweight factory.
+TYPE_STRING is a flyweight object (declared public-static-final).
+File location: DataX-master/otsreader/src/main/java/com/alibaba/datax/plugin/reader/otsreader/model/OTSConst.java
+
+Flyweight Pattern.
+OTSErrorMessage is a flyweight factory.
+OPERATION_PARSE_ERROR is a flyweight object (declared public-static-final).
+File location: DataX-master/otswriter/src/main/java/com/alibaba/datax/plugin/writer/otswriter/model/OTSErrorMessage.java
+
+Flyweight Pattern.
+OTSErrorCode is a flyweight factory.
+AUTHORIZATION_FAILURE is a flyweight object (declared public-static-final).
+File location: DataX-master/otsstreamreader/src/main/java/com/alibaba/datax/plugin/reader/otsstreamreader/internal/model/OTSErrorCode.java
+
+Flyweight Pattern.
+OTSReaderError is a flyweight factory.
+ERROR is a flyweight object (declared public-static-final).
+File location: DataX-master/otsstreamreader/src/main/java/com/alibaba/datax/plugin/reader/otsstreamreader/internal/OTSReaderError.java
+
+Flyweight Pattern.
+Constants is a flyweight factory.
+DEFAULT_USERNAME is a flyweight object (declared public-static-final).
+File location: DataX-master/tdenginewriter/src/main/java/com/alibaba/datax/plugin/writer/tdenginewriter/Constants.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                  46
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 124
+Number of files processed: 715
+Size of DelegationTable: 51
+Size of concrete class nodes: 102
+Size of undirected invocation edges: 3
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/46
+nFlyweightGoFVersion = 0

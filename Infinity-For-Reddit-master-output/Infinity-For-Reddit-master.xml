@@ -1,0 +1,61 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Flyweight Pattern.
+SharedPreferencesUtils is a flyweight factory.
+ENABLE_NOTIFICATION_KEY is a flyweight object (declared public-static-final).
+File location: Infinity-For-Reddit-master/app/src/main/java/ml/docilealligator/infinityforreddit/utils/SharedPreferencesUtils.java
+
+Flyweight Pattern.
+JSONUtils is a flyweight factory.
+KIND_KEY is a flyweight object (declared public-static-final).
+File location: Infinity-For-Reddit-master/app/src/main/java/ml/docilealligator/infinityforreddit/utils/JSONUtils.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   2
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    0
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 74
+Number of files processed: 561
+Size of DelegationTable: 0
+Size of concrete class nodes: 69
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/2
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.

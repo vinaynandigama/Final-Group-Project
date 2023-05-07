@@ -1,0 +1,59 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Strategy Pattern.
+ApiException is the Context class.
+IErrorCode is the Strategy interface.
+Concrete Strategy classes: 
+Delegation through errorCode of type IErrorCode
+File Location: mall-master/mall-common/src/main/java/com/macro/mall/common/exception/ApiException.java,
+               mall-master/mall-common/src/main/java/com/macro/mall/common/api/IErrorCode.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            0
+Factory Method              0
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     0
+Bridge                      0
+Composite                   0
+Decorator                   0
+Facade                      0
+Flyweight                   0
+Proxy                       0
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                    0
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             0
+Visitor                     0
+------------------------------
+
+Number of classes processed: 7
+Number of files processed: 520
+Size of DelegationTable: 12
+Size of concrete class nodes: 3
+Size of undirected invocation edges: 0
+
+
+nMediatorFacadeDual/nMediator = 0/0
+nImmutable/nFlyweight = 0/0
+nFlyweightGoFVersion = 0
+
+Found 1 system error:
+
+*** Semantic Error: Type "java.lang.annotation.Annotation" was not found.
